@@ -26,7 +26,7 @@ export FLASK_ENV=development\
 source env/bin/activate\
 flask run
 
-====== you'll see something like this: =========
+====== you'll see something like this: ========= \
  * Serving Flask app 'app.py' (lazy loading)
  * Environment: development
  * Debug mode: on
@@ -34,7 +34,7 @@ flask run
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 135-035-974
-==================================================
+================================================== \
 
 4) navigate in your browser to the URL: http://localhost:5000/google_api
 
