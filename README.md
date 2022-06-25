@@ -44,4 +44,13 @@ https://docs.google.com/spreadsheets/d/1LTejK-Oo7L1bFreBIIcEZnF1W1RCC1s_jos3EuIP
 https://docs.google.com/spreadsheets/d/1vVgYyBafsp8btA4BiriKIIGFs8DFEdgz7A0xDH27sII/edit#gid=0
 3) Get the CBR usd rate 
 4) Update the DataBase table called "elephant_orders" hosted by "elephantsql.com" with the new column "стоимость в руб."
-5) Show the resulting table on a page (USE button "Run" for that)
+5) Show the resulting table on a web page.
+
+Available Buttons After the FLASK app started:
+1) "COPY INITIAL GOOGLE DATA"
+Once you click it, data from TESTOVOE page will be copied to PERSONAL TABLE
+2) "START CONTINIOUS SCRIPT" 
+Once you click this button - you'll activate script which will get the data from Personal Table and add it to the Elephant DB  with additional column.
+3) "RUN" 
+Once you click it, the table with resulting data will be generated.
+Update the page in order to show updated results as you change data in personal table
