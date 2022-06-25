@@ -16,15 +16,15 @@ INSTRUCTIONS FOR STARTING THE APP:
   ---> activate the virtualenv with command: 
   source env/bin/activate
   ---> run: 
-  pip3 install -r requirements.txt in your shell
+  pip3 install -r requirements.txt \
   
 3) once the dependencies are installed, cd into the app folder, activate the VENV and run FLASK app:
 
-cd Your_Folder/google_api_app/flask_server/app_web
-export FLASK_APP=app.py
-export FLASK_ENV=development
-source env/bin/activate
-flask run
+cd Your_Folder/google_api_app/flask_server/app_web\
+export FLASK_APP=app.py\
+export FLASK_ENV=development\
+source env/bin/activate\
+flask run\
 
 ====== you'll see something like this: =========
  * Serving Flask app 'app.py' (lazy loading)
