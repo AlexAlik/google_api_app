@@ -1,9 +1,6 @@
-# google_api_app
-App for getting the data from Google Sheets Api and updating DB with it.
-
 Hello!
 
-INSTRUCTIONS FOR STARTING THE APP:
+INSTRUCTIONS FOR STARTING THIS APP:
 
 1) download the archive "google_api_app"
 2) install packages from requirements.txt using the following commands:
