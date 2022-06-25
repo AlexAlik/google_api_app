@@ -9,10 +9,14 @@ INSTRUCTIONS FOR STARTING THE APP:
 2) install packages from requirements.txt using the following commands:
   
   ---> cd into the directory where requirements.txt is located after you unzip the archive "google_api_app":
-  EXAMPLE: cd YOUR_FOLDER/google_api_app/flask_server/app_web
+  EXAMPLE: 
   
-  -activate the virtualenv with command: source env/bin/activate
-  run: pip install -r requirements.txt in your shell
+  cd YOUR_FOLDER/google_api_app/flask_server/app_web
+  
+  ---> activate the virtualenv with command: 
+  source env/bin/activate
+  ---> run: 
+  pip3 install -r requirements.txt in your shell
   
 3) once the dependencies are installed, cd into the app folder, activate the VENV and run FLASK app
 EXAMPLE:
