@@ -18,8 +18,8 @@ INSTRUCTIONS FOR STARTING THE APP:
   ---> run: 
   pip3 install -r requirements.txt in your shell
   
-3) once the dependencies are installed, cd into the app folder, activate the VENV and run FLASK app
-EXAMPLE:
+3) once the dependencies are installed, cd into the app folder, activate the VENV and run FLASK app:
+
 cd Your_Folder/google_api_app/flask_server/app_web
 export FLASK_APP=app.py
 export FLASK_ENV=development
