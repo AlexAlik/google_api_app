@@ -46,11 +46,12 @@ https://docs.google.com/spreadsheets/d/1vVgYyBafsp8btA4BiriKIIGFs8DFEdgz7A0xDH27
 4) Update the DataBase table called "elephant_orders" hosted by "elephantsql.com" with the new column "стоимость в руб."
 5) Show the resulting table on a web page.
 
-Available Buttons After the FLASK app started:
-1) "COPY INITIAL GOOGLE DATA"
-Once you click it, data from TESTOVOE page will be copied to PERSONAL TABLE
-2) "START CONTINIOUS SCRIPT" 
+Available Buttons After the FLASK app started: \
+1) "COPY INITIAL GOOGLE DATA" \
+Once you click it, data from TESTOVOE table will be copied to the PERSONAL TABLE. \
+2) "START CONTINIOUS SCRIPT" \
 Once you click this button - you'll activate script which will get the data from Personal Table and add it to the Elephant DB  with additional column.
-3) "RUN" 
-Once you click it, the table with resulting data will be generated.
-Update the page in order to show updated results as you change data in personal table
+The script will run continiously each 10 seconds.
+3) "RUN"  \
+Once you click it, the table with resulting data will be generated and shown on the webpage.
+Update the page in order to show updated results as you change the data in the PERSONAL TABLE.
