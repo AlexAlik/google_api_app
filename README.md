@@ -5,9 +5,9 @@ INSTRUCTIONS FOR STARTING THIS APP:
 1) download the archive "google_api_app"
 2) install packages from requirements.txt using the following commands:
   
-  ---> cd into the directory where requirements.txt is located after you unzip the archive "google_api_app":\
-  EXAMPLE: 
-  
+  ---> cd into the directory where the file "requirements.txt" is located after you unzip the archive "google_api_app":\
+ 
+EXAMPLE:\ 
   cd YOUR_FOLDER/google_api_app/flask_server/app_web
   
   ---> activate the virtualenv with command: \
