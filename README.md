@@ -2,20 +2,18 @@ Hello!
 
 INSTRUCTIONS FOR STARTING THIS APP:
 
-1) download the archive "google_api_app"
-2) install packages from requirements.txt using the following commands:
+1) download the archive "google_api_app", unzip archive
+2) navigate to your shell
+3) install packages from requirements.txt using the following commands:
   
   ---> cd into the directory where the file "requirements.txt" is located after you unzip the archive "google_api_app":\
- 
-EXAMPLE:\ 
   cd YOUR_FOLDER/google_api_app/flask_server/app_web
-  
   ---> activate the virtualenv with command: \
   source env/bin/activate \
   ---> install required packages: \
   pip3 install -r requirements.txt
   
-3) once the dependencies are installed, cd into the app folder, activate the VENV and run FLASK app:
+4) once the dependencies are installed, cd into the app folder, activate the VENV and run FLASK app:
 
 cd Your_Folder/google_api_app/flask_server/app_web\
 export FLASK_APP=app.py\
@@ -33,8 +31,8 @@ flask run
  * Debugger PIN: 135-035-974 \
 ================================================== \
 
-4) navigate in your browser to the URL: http://localhost:5000/google_api
-5) great! now you can push buttons
+5) navigate in your browser to the URL: http://localhost:5000/google_api
+6) great! now you can push buttons
 
 Available Buttons After the FLASK app started: \
 1) "COPY INITIAL GOOGLE DATA" \
