@@ -11,8 +11,8 @@ INSTRUCTIONS FOR STARTING THIS APP:
   cd YOUR_FOLDER/google_api_app/flask_server/app_web
   
   ---> activate the virtualenv with command: 
-  source env/bin/activate
-  ---> run: 
+  source env/bin/activate \
+  ---> install required packages: \
   pip3 install -r requirements.txt
   
 3) once the dependencies are installed, cd into the app folder, activate the VENV and run FLASK app:
