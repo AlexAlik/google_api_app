@@ -1,0 +1,13 @@
+requests==2.21.0
+numpy==1.21.1
+psycopg2_binary==2.9.3
+Flask==2.0.1
+backports.statistics==0.1.0
+beautifulsoup4==4.11.1
+Cython==0.29.30
+google_api_python_client==2.51.0
+ipaddr==2.2.0
+ordereddict==1.1
+protobuf==4.21.1
+psycopg2==2.9.3
+wincertstore==0.2.1
